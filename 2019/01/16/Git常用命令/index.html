@@ -7,18 +7,18 @@
   
   <title>Git常用命令 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="##配置身份（姓名和邮箱）  git config –global user.name “xxx” git config –global user.email “xxx@xxx”  ##查看身份  git config –global user.name git config –global user,email  ##创建代码仓库  git init  ##查看本地所有git操作  ls -al">
+  <meta name="description" content="配置身份（姓名和邮箱） git config –global user.name “xxx” git config –global user.email “xxx@xxx”  查看身份 git config –global user.name git config –global user,email  创建代码仓库 git init  查看本地所有git操作 ls -al  提交/添加代码 gi">
 <meta name="keywords" content="Git,工具">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git常用命令">
-<meta property="og:url" content="http://yoursite.com/2019/01/16/Git常用命令/index.html">
+<meta property="og:url" content="http://www.blog.zhangtian.online/2019/01/16/Git常用命令/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="##配置身份（姓名和邮箱）  git config –global user.name “xxx” git config –global user.email “xxx@xxx”  ##查看身份  git config –global user.name git config –global user,email  ##创建代码仓库  git init  ##查看本地所有git操作  ls -al">
+<meta property="og:description" content="配置身份（姓名和邮箱） git config –global user.name “xxx” git config –global user.email “xxx@xxx”  查看身份 git config –global user.name git config –global user,email  创建代码仓库 git init  查看本地所有git操作 ls -al  提交/添加代码 gi">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-16T06:56:35.426Z">
+<meta property="og:updated_time" content="2019-01-16T07:02:09.112Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git常用命令">
-<meta name="twitter:description" content="##配置身份（姓名和邮箱）  git config –global user.name “xxx” git config –global user.email “xxx@xxx”  ##查看身份  git config –global user.name git config –global user,email  ##创建代码仓库  git init  ##查看本地所有git操作  ls -al">
+<meta name="twitter:description" content="配置身份（姓名和邮箱） git config –global user.name “xxx” git config –global user.email “xxx@xxx”  查看身份 git config –global user.name git config –global user,email  创建代码仓库 git init  查看本地所有git操作 ls -al  提交/添加代码 gi">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,7 +59,7 @@
         <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://www.blog.zhangtian.online"></form>
       </div>
     </div>
   </div>
@@ -91,32 +91,26 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>##配置身份（姓名和邮箱）</p>
-<blockquote>
+        <h2 id="配置身份（姓名和邮箱）"><a href="#配置身份（姓名和邮箱）" class="headerlink" title="配置身份（姓名和邮箱）"></a>配置身份（姓名和邮箱）</h2><blockquote>
 <p>git config –global user.name “xxx”</p>
 <p>git config –global user.email “xxx@xxx”</p>
 </blockquote>
-<p>##查看身份</p>
-<blockquote>
+<h2 id="查看身份"><a href="#查看身份" class="headerlink" title="查看身份"></a>查看身份</h2><blockquote>
 <p>git config –global user.name</p>
 <p>git config –global user,email</p>
 </blockquote>
-<p>##创建代码仓库</p>
-<blockquote>
+<h2 id="创建代码仓库"><a href="#创建代码仓库" class="headerlink" title="创建代码仓库"></a>创建代码仓库</h2><blockquote>
 <p>git init</p>
 </blockquote>
-<p>##查看本地所有git操作</p>
-<blockquote>
+<h2 id="查看本地所有git操作"><a href="#查看本地所有git操作" class="headerlink" title="查看本地所有git操作"></a>查看本地所有git操作</h2><blockquote>
 <p>ls -al</p>
 </blockquote>
-<p>##提交/添加代码</p>
-<blockquote>
+<h2 id="提交-添加代码"><a href="#提交-添加代码" class="headerlink" title="提交/添加代码"></a>提交/添加代码</h2><blockquote>
 <p>git add xxx.xxxgit </p>
 <p>add xxxgit add .    //添加所有文件提交代码（全部添加完毕以后）</p>
 <p>git commit -m “xxx”</p>
 </blockquote>
-<p>##忽略文件</p>
-<blockquote>
+<h2 id="忽略文件"><a href="#忽略文件" class="headerlink" title="忽略文件"></a>忽略文件</h2><blockquote>
 <p>.gitignore//AS自动生成两个，一个在app目录下，一个在根目录下。可以在里边添加想要屏蔽的文件查看文件修改情况git status查看修改内容</p>
 <p>git diffgit diff /xxx/xxxgit diff /xxx/xxx/xxx.java</p>
 </blockquote>
@@ -124,29 +118,24 @@
 <blockquote>
 <p>git checkout app/src/main/java/com/example/dell/xxx/xxx.java</p>
 </blockquote>
-<p>##取消添加代码</p>
-<blockquote>
+<h2 id="取消添加代码"><a href="#取消添加代码" class="headerlink" title="取消添加代码"></a>取消添加代码</h2><blockquote>
 <p>git reset HEAD app/src/main/java/com/example/dell/xxx/xxx.java</p>
 </blockquote>
-<p>##查看提交记录</p>
-<blockquote>
+<h2 id="查看提交记录"><a href="#查看提交记录" class="headerlink" title="查看提交记录"></a>查看提交记录</h2><blockquote>
 <p>git loggit log cb4bfeda544c73257cd454966 9a0e794f4727832 -1(代表只想看一行记录)</p>
 <p>git log cb4bfeda544c73257cd4549669a0e794f4727832 -1 -p(代表只想看具体修改了什么内容)</p>
 </blockquote>
-<p>##查看当前版本库当中有哪些分支</p>
-<blockquote>
+<h2 id="查看当前版本库当中有哪些分支"><a href="#查看当前版本库当中有哪些分支" class="headerlink" title="查看当前版本库当中有哪些分支"></a>查看当前版本库当中有哪些分支</h2><blockquote>
 <p>git branch</p>
 </blockquote>
-<p>##创建分支</p>
-<blockquote>
+<h2 id="创建分支"><a href="#创建分支" class="headerlink" title="创建分支"></a>创建分支</h2><blockquote>
 <p>git branch version1.0</p>
 </blockquote>
 <p>##切换到分支</p>
 <blockquote>
 <p>git checkout version1.0</p>
 </blockquote>
-<p>##合并分支与主干</p>
-<blockquote>
+<h2 id="合并分支与主干"><a href="#合并分支与主干" class="headerlink" title="合并分支与主干"></a>合并分支与主干</h2><blockquote>
 <p>git merge version1.0</p>
 </blockquote>
 <p>##删除分支</p>
@@ -175,7 +164,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/16/Git常用命令/" data-id="cjqytvj4p000080vbkzs08nzc" class="article-share-link">Share</a>
+      <a data-url="http://www.blog.zhangtian.online/2019/01/16/Git常用命令/" data-id="cjqytvj4p000080vbkzs08nzc" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/工具/">工具</a></li></ul>
